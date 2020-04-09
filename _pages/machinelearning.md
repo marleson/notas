@@ -8,6 +8,5 @@ header:
     image: "/images/eu.jpg" 
 ---
 
-# Aprendizagem de máquina
 
 Inicio
