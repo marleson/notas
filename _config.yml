@@ -94,9 +94,9 @@ analytics:
 # Site Author
 author:
   name             : "Márleson Ferreira"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/eu.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Matemático, pesquisador e doutor em engenharia"
-  location         : "Somewhere"
+  location         : "Santana, AP - Brasil"
   email            :
   links:
     - label: "Email"
