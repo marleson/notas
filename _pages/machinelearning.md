@@ -2,6 +2,7 @@
 layout: archive
 permalink: /machine-learning/
 title: "Machine Learning"
+date: 2020-09-04
 author_profile: true
 header: 
     image: "/images/eu.jpg" 
