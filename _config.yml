@@ -94,10 +94,10 @@ analytics:
 # Site Author
 author:
   name             : "Márleson Ferreira"
-  avatar           : "/images/eu.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**notas** de aula"
+  avatar           : "images/eu.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Minhas **notas** de aula"
   location         : "Santana, AP"
-  email            :
+  email            : "m.rondiner"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -113,7 +113,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+       url: "https://github.com/marleson"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
        url: "https://instagram.com/marlesonferreira"
