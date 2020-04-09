@@ -1,10 +1,10 @@
 ---
 layout: archive
-permalink: /machinelearning/
+permalink: /machine-learning/
 title: "Machine Learning"
 author_profile: true
 header: 
-    image: "images/eu.jpg" 
+    image: "/images/eu.jpg" 
 ---
 
 
