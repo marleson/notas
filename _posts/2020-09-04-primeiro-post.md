@@ -4,7 +4,7 @@ date: 2020-09-04
 tags: [primeiro, primeiro post, começou]
 header: 
     image: "/images/eu.jpg"
-excerpt: "Primerão post, vamos ver"
+excerpt: "Primero post, vamos ver"
 ---
 
 # Primeiro post neste site
