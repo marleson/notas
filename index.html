@@ -1,65 +1,78 @@
 ---
-layout: splash
+layout: home
 author_profile: true
 header: 
-    overlay_color: "#000"
-    overlay_filter: "0.5"
-    overlay_image: images/bf-chile001.jpg
-actions:
-  - label: "Download"
-    url: "https://github.com/mmistakes/minimal-mistakes/"
-caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Código, projetos e notas de aula"
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: images/bf-chile001.jpg
+  actions:
+    - label: "Saiba mais"
+      url: "/about/"
+  caption: "Photo credit: [Márleson Ferreira](#test-link)"
+excerpt: "Códigos, projetos e notas de aula"
 intro: 
-- excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'Este site contém notas de aulas, códigos, dicas e projetos'
 feature_row:
-- image_path: images/unsplash-gallery-image-1-th.jpg
-  alt: "placeholder image 1"
-  title: "Placeholder 1"
-  excerpt: "This is some sample content that goes here with **Markdown** formatting."
-- image_path: /images/unsplash-gallery-image-2-th.jpg
-  image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-  alt: "placeholder image 2"
-  title: "Placeholder 2"
-  excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  url: "#test-link"
-  btn_label: "Read More"
-  btn_class: "btn--primary"
-- image_path: /images/unsplash-gallery-image-3-th.jpg
-  title: "Placeholder 3"
-  excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: images/fabian-grohs-unsplash.jpg
+    image_caption: "Photo by Fabian Grohs on [Unsplash](https://unsplash.com/)"
+    alt: "placeholder image 1"
+    title: "Notas de Aula"
+    excerpt: "Notas de aulas disponíveis."
+    url: "/notas-de-aula/"
+    btn_label: "Leia mais"
+    btn_class: "btn--primary"
+  - image_path: /images/kevin-horvat-unsplash.jpg
+    image_caption: "Photo by Kevin Horvat on [Unsplash](https://unsplash.com/)"
+    alt: "placeholder image 2"
+    title: "Códigos"
+    excerpt: "Códigos para ajudar na aprendizagem."
+    url: "/codigos/"
+    btn_label: "Leia mais"
+    btn_class: "btn--primary"
+  - image_path: /images/absolutvision-unsplash.jpg
+    image_caption: "Photo by AbsolutVision on [Unsplash](https://unsplash.com/)"
+    title: "Tutoriais"
+    excerpt: "Dicas sobre Linux e diversos tutoriais."
+    url: "/tutoriais/"
+    btn_label: "Leia mais"
+    btn_class: "btn--primary"
 feature_row2:
-- image_path: /images/unsplash-gallery-image-2-th.jpg
-  alt: "placeholder image 2"
-  title: "Placeholder Image Left Aligned"
-  excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-  url: "#test-link"
-  btn_label: "Read More"
-  btn_class: "btn--primary"
+  - image_path: /images/covid-001.jpg
+    alt: "placeholder image 2"
+    title: "Coronavírus no Amapá"
+    excerpt: 'Gráficos sobre o COVID-19 no estado do Amapá atualizados diariamente.'
+    url: "/coronavirus/"
+    btn_label: "Leia mais"
+    btn_class: "btn--primary"
 feature_row3:
-- image_path: /images/unsplash-gallery-image-2-th.jpg
-  alt: "placeholder image 2"
-  title: "Placeholder Image Right Aligned"
-  excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-  url: "#test-link"
-  btn_label: "Read More"
-  btn_class: "btn--primary"
+  - image_path: /images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Right Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 feature_row4:
-- image_path: /images/unsplash-gallery-image-2-th.jpg
-  alt: "placeholder image 2"
-  title: "Placeholder Image Center Aligned"
-  excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-  url: "#test-link"
-  btn_label: "Read More"
-  btn_class: "btn--primary"
+  - image_path: /images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Center Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
-{% include feature_row id="intro" type="center" %}
 
-{% include feature_row %}
+{% include feature_row id="author_profile" type="center" %}
+
+<!-- {% include feature_row id="intro" type="center" %} -->
 
 {% include feature_row id="feature_row2" type="left" %}
 
-{% include feature_row id="feature_row3" type="right" %}
+{% include feature_row %}
 
-{% include feature_row id="feature_row4" type="center" %}
+
+
+<!-- {% include feature_row id="feature_row3" type="right" %} -->
+
+<!-- {% include feature_row id="feature_row4" type="center" %} -->

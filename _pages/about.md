@@ -1,9 +1,12 @@
 ---
 
 title: "Márleson Ferreira"
+excerpt: 'Professor &#124; Matemático &#124; Pesquisador'
 permalink: "/about/"
 header: 
-    image: "/images/eu.jpg"
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: images/eu.jpg    
 ---
 
 

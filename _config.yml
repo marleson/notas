@@ -98,9 +98,9 @@ analytics:
 author:
   name             : "Márleson Ferreira"
   avatar           : "/images/marleson-icon.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Matemático, pesquisador e doutor em engenharia"
+  bio              : "Professor &#124; Matemático &#124; Pesquisador"
   location         : "Santana, AP - Brasil"
-  email            :
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -222,6 +222,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-titles-from-headings  # strip title - marleson
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -268,6 +269,23 @@ compress_html:
   ignore:
     envs: development
 
+titles_from_headings:  # marleson
+  enabled:     true
+  strip_title: true
+  collections: true
+  
+
+  
+
+
+# Collections
+collections:
+  tutoriais:
+    output: true
+    permalink: /:collection/:path/
+  notas-de-aula:
+    output: true
+    permalink: /:collection/:path/    
 
 # Defaults
 defaults:
@@ -290,3 +308,23 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+    # _tutoriais
+  - scope:
+      path: ""
+      type: tutoriais
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+      
+    # _notas-de-aula
+  - scope:
+      path: ""
+      type: notas-de-aula
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
