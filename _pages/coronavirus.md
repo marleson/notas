@@ -54,5 +54,3 @@ Neste gráfico é empregado um modelo de regressão não-linear para estimar o n
 <li>Folha de São Paulo: <a href="https://www1.folha.uol.com.br/cotidiano/coronavirus/"> Coronavírus </a> </li>
 <li>Reddit forum: <a href="https://www.reddit.com/r/coronabr/"> Coronavírus Brasil (COVID-19) </a> </li>
 
-
-{% include comments.html %}
