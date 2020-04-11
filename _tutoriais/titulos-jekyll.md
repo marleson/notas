@@ -45,6 +45,3 @@ Como os itens da coleção (incluindo postagens) já têm um título inferido de
 Consulte a documentação completa no link abaixo:
 
 * [Jekyll Titles from Headings](https://github.com/benbalter/jekyll-titles-from-headings)
-
-
-{% include comments.html %}
