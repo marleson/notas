@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Notas de aula"
+    url: /notas-de-aula/
   - title: "Posts"
     url: /posts/
   - title: "Sobre mim"

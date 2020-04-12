@@ -1,5 +1,5 @@
 ---
-title: "Coronavírus no Amapá"
+title: "CORONAVÍRUS NO AMAPÁ"
 excerpt: 'Gráficos sobre o COVID-19 no estado do Amapá'
 permalink: /coronavirus/
 tags: [covid19, coronavirus, amapá]

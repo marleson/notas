@@ -5,6 +5,12 @@ var store = [{
         "url": "http://localhost:4000/notas-de-aula/chocolate-chip-cookies/",
         "teaser": null
       },{
+        "title": "Geometria Analítica",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/notas-de-aula/geometria-analitica/",
+        "teaser": null
+      },{
         "title": "Page Archive",
         "excerpt":"                                                                                ","categories": [],
         "tags": [],
