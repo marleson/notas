@@ -12,7 +12,7 @@ sort_order: # forward (default), reverse
 ---
 
 
-Uma das últimas partes antes da minha transição completa para páginas do github do wordpress foi descobrir como postar cadernos jupyter bem formatados. Na verdade, esse foi o motivo pelo qual eu queria mudar, mas não foi tão simples quanto eu esperava! Acho que encontrei uma maneira aceitável, embora imperfeita, de fazer isso: eis o processo geral em que me estabeleci.
+Uma das últimas partes antes da minha transição completa para páginas do github foi descobrir como postar cadernos jupyter bem formatados. Na verdade, esse foi o motivo pelo qual eu queria mudar, mas não foi tão simples quanto eu esperava! Acho que encontrei uma maneira aceitável, embora imperfeita, de fazer isso: eis o processo geral em que me estabeleci.
 
 1. Escreva o bloco de notas jupyter na pasta `_jupyter`
 2. Quando terminar, `jupyter nbconvert <nb> --to markdown`
@@ -20,5 +20,12 @@ Uma das últimas partes antes da minha transição completa para páginas do git
 4. Mova as imagens para a pasta  `imagens`
 5. Adicione `/images/` a todos os caminhos de imagem no arquivo de markdown
 
-Algumas coisas que aprendi ao longo do caminho:
+
+
+<br /> <br /> <br /> <br />
+
+
+
+
+**(em construção...)**
 

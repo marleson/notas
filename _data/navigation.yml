@@ -2,10 +2,13 @@
 main:
   - title: "Notas de aula"
     url: /notas-de-aula/
-  - title: "Posts"
+  - title: "Blog"
     url: /posts/
+  - title: "Agenda"
+    url: /agenda/
   - title: "Sobre mim"
     url: /about/    
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
